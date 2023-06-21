@@ -11,7 +11,7 @@ TextMate has been developed with a real-time text editor feature that provides u
 - Audio Call
 
 ## Deployed Link
-- [NetliFy]() 
+- [NetliFy](<a href="https://effervescent-buttercream-1a4b5d.netlify.app/"></a>) 
 
 - [Cyclic]()
 
