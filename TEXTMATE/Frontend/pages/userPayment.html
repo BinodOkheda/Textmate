@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textmate Payment page</title>
+    <link rel="stylesheet" href="../style/userPayment.css">
+</head>
+
+<body>
+  <nav class="nav">
+    <img src="../images/textmate-logo.png" alt="logo" onclick="window.location.href='../index.html'">
+
+  </nav>
+
+  <div class="main">
+    <div class="plan-details dropdown-style">
+
+       
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+            rel="stylesheet"
+          />
+        
+    
+        </head>
+    
+         
+          <section class="main">
+            <div class="left">
+              <h3>Shipping Cart</h3>
+              <form>
+                <div class="addrex_form">
+                  <div class="name_surname">
+                    <div>
+                      <label for="">*First Name :</label>
+                      <input
+                        required
+                        type="text"
+                        placeholder="First Name"
+                        class="name"
+                      />
+                    </div>
+                    <div>
+                      <label for="">Last Name : </label>
+                      <input type="text" placeholder="Last Name" class="" />
+                    </div>
+                  </div>
+                  
+              
+                  <div class="email_number">
+                    <div>
+                      <label for="">Email Address :</label>
+                      <input type="email" placeholder="Email" />
+                    </div>
+                    <div>
+                      <label for="">*Mobile Number :</label>
+                      <input required type="numbers" placeholder="Number" />
+                    </div>
+                  </div>
+                  <select name="" id="plan" >
+                    <option value="">Select Your Plan</option>
+                    <option value="Pro">Pro</option>
+                    <option value="Business">Business</option>
+                  </select>
+                </div>
+                <!-- </form> -->
+      
+                <section class="payment_box">
+                  <header><h3>Payment</h3></header>
+      
+                  <!-- <form> -->
+                  <div class="payment_form">
+                    <div>
+                      <label>*Card :</label>
+                      <input type="number" required placeholder="Card Number" />
+                    </div>
+                    <div>
+                      <label>*MM :</label>
+                      <input required type="number" placeholder="MM" />
+                    </div>
+                    <div>
+                      <label>*YY :</label>
+                      <input required type="number" placeholder="YY" />
+                    </div>
+                    <div>
+                      <label>*CVV :</label>
+                      <input required type="number" placeholder="CVV" />
+                    </div>
+      
+                    <input  type="button" value="place order" onclick="oderplace()" />
+                    <!-- </form> -->
+                  </div>
+                </section>
+              </form>
+            </div>
+          
+          </section>
+        
+     
+
+
+        </div>
+
+        <div id="popup" class="popup">
+          <h1>OTP VARIFICATION</h1>
+          <h3>YOUR OTP IS:- <span id="otp">0000</span></h3> 
+          
+          <div id="otpInput">
+              <h3>Enter Your OTP</h3>
+              <input type="number" id="otpInput1">
+              <input type="number" id="otpInput2">
+              <input type="number" id="otpInput3">
+              <input type="number" id="otpInput4">
+          </div>
+          <button id="otpButton">Submit</button>
+      </div>
+     <script src="../scripts/userPayment.js"></script>
+</body>
+</html>
